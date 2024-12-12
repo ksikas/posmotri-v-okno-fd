@@ -1,1 +1,1 @@
-https://github.com/ksikas/posmotri_v_okno
+https://github.com/ksikas/posmotri_v_okno-fd
