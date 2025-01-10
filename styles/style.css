@@ -173,8 +173,8 @@ ol {
   margin-right: 15px;
 }
 
-.search-form__checkbox:active + .search-form__pseudo-checkbox,
-.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+.search-form__checkbox:active + .search-form__pseudo-checkbox::after,
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   width: 15px;
   height: 15px;
   border: 1px solid #fff;
