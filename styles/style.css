@@ -175,13 +175,12 @@ ol {
 
 .search-form__checkbox:active + .search-form__pseudo-checkbox::after,
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  content: "";
+  display: inline-block;
+  background-color: #fff;
   width: 15px;
   height: 15px;
-  border: 1px solid #fff;
-  background-color: #fff;
-  outline: 1px solid #fff;
-  outline-offset: 1.5px;
-  margin-right: 4px;
+  margin: 1px;
 }
 
 .search-form__label:hover .search-form__label-text {
